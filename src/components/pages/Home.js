@@ -1,6 +1,4 @@
 import styles from './Home.module.css'
-import homeNeV from '../../img/home.jpeg'
-
 function Home(){
     return(
         <section className={styles.home_container}>
