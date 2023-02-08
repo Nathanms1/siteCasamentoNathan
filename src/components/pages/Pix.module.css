@@ -7,16 +7,21 @@
     padding: 1rem 6rem;
 }
 
+.pix h1{
+    color: #3d3c3c;
+}
+
 .pix img {
     width: 180px;
     height: 200px;
     border-radius: 1rem;
-    margin-top: 2rem;
-    margin-bottom: 0.2rem;
+    margin-top: 4rem;
+    margin-bottom: 0.7rem;
 }
 
 .pix p{
     font-weight: bold;
+    color: #3d3c3c;
 }
 
 .pix strong{
@@ -38,4 +43,13 @@
     margin-top: 1rem;
     margin-bottom: 5rem;
 }
+
+.pix img {
+    width: 180px;
+    height: 200px;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
 }

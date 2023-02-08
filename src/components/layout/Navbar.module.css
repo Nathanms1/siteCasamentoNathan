@@ -29,3 +29,11 @@
     font-weight: bold;
     
 }
+
+@media screen and (max-width: 500px){
+    .item a{
+        color: #921a24;
+        text-decoration: none;
+        font-size: 1.3rem;
+    }
+}
