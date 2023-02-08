@@ -1,0 +1,206 @@
+.menu {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 1rem 6rem;
+}
+
+.menu_Entrada {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    padding: 1rem 6rem;
+    margin-top: -3rem;
+}
+.menu h1 { 
+    font-size: 1.3em;
+    color: #3d3c3c;
+    font-weight: bold;
+    /* margin-left:90px; */
+    text-align: left;
+    margin-top: 1.2rem;
+    margin-bottom: 1.2rem;
+}
+
+.entrada {
+    display: flex;
+    justify-content: left;
+    list-style-type: none;
+}
+
+.entrada {
+        height: 300px;
+        width: 200px;
+        background: #f7f7f7;
+        border-radius: 8px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        margin-top: 3rem;
+        margin-right: 2rem;
+        
+
+}
+
+.entrada strong{
+    color: #921a24 ;
+    /* background-color: #3d3c3c; */
+    font-size: 0.9rem;
+    border-radius: 1rem;
+    margin-top: -1rem;
+}
+
+ .entrada img {
+    width: 180px;
+    height: 200px;
+    border-radius: 2rem;
+}
+
+.menu_Jantar {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    padding: 1rem 6rem;
+    margin-top: -3rem;
+}
+
+.janta {
+    height: 300px;
+    width: 200px;
+    background: #f7f7f7;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 3rem;
+    margin-right: 2rem;
+}
+
+.janta strong{
+    color: #921a24 ;
+    /* background-color: #3d3c3c; */
+    font-size: 0.9rem;
+    border-radius: 1rem;
+    margin-top: -1rem;
+}
+
+ .janta img {
+    width: 180px;
+    height: 200px;
+    border-radius: 2rem;
+}
+
+.menu_Bebidas {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    padding: 1rem 6rem;
+    margin-top: -3rem;
+    justify-content: space-between;
+}
+
+.bebidas {
+    height: 300px;
+    width: 200px;
+    background: #f7f7f7;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 3rem;
+    margin-right: 1rem;
+    overflow: hidden;
+}
+
+.bebidas strong{
+    color: #921a24 ;
+    /* background-color: #3d3c3c; */
+    font-size: 0.9rem;
+    border-radius: 1rem;
+    margin-top: -1rem;
+}
+
+.bebidas img {
+    width: 150px;
+    height: 200px;
+    border-radius: 2rem;
+}
+
+@media screen and (max-width: 500px){
+    .menu {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 1rem 6rem;
+        align-items: center;
+    }
+    
+    .menu_Entrada {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 1rem 6rem;
+        margin-top: -3rem;
+        align-items: center;
+        margin-left: 3rem;
+    }
+
+    .menu_Jantar {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 1rem 6rem;
+        margin-top: -3rem;
+        align-items: center;
+
+    }
+
+    .janta {
+        height: 300px;
+        width: 200px;
+        background: #f7f7f7;
+        border-radius: 8px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        margin-top: 3rem;
+        margin-left: 3rem;
+    }
+
+    .menu_Bebidas {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 1rem 6rem;
+        margin-top: -3rem;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .bebidas {
+        height: 300px;
+        width: 200px;
+        background: #f7f7f7;
+        border-radius: 8px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        margin-top: 3rem;
+        overflow: hidden;
+        margin-left: 2rem;
+    }
+
+}
