@@ -22,7 +22,7 @@ function App() {
         <Route path="/menu" element={<Menu />} />
         <Route path="/pix" element={<Pix />} /> 
 
-        <Route path="*" element={ <Erro/> } />
+        <Route path="*" element={ <Erro /> } />
       </Routes>
       </Container>
       <Footer />
