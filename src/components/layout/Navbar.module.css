@@ -1,8 +1,9 @@
 .navbar {
+    height: 15%;
     display: flex;
     justify-content: space-between;
     background-color: #fee7c8;
-    padding: 1em;
+    padding: 0 1em;
 }
 
 .navbar img{
@@ -36,4 +37,16 @@
         text-decoration: none;
         font-size: 1.3rem;
     }
+
+    .navbar img{
+        height: 80%;
+    }
+
+    .list {
+        display: flex;
+        list-style: none;
+        align-items: center;
+        margin-bottom: 1rem;
+    }
+    
 }

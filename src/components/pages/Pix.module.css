@@ -6,7 +6,6 @@
     align-items: center;
     padding: 1rem 6rem;
 }
-
 .pix h1{
     color: #3d3c3c;
 }
@@ -17,6 +16,7 @@
     border-radius: 1rem;
     margin-top: 4rem;
     margin-bottom: 0.7rem;
+    border:3px solid #3d3c3c;
 }
 
 .pix p{

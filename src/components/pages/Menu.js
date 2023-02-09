@@ -12,7 +12,12 @@ import aguaS from '../../img/aguaS.jpg'
 function Menu(){
     return (
         <section className={styles.menu}>
-            <h1>Entrada</h1>
+            <div className={styles.subMenu}>
+                <p><a href='#entrada'>Entrada</a></p>
+                <p><a href='#jantar'>Jantar</a></p>
+                <p><a href='#bebidas'>Bebidas</a></p>
+            </div>
+            <h1 id="entrada">Entrada</h1>
             <div className={styles.menu_Entrada}>
                 <article className={styles.entrada}>
                     <img src={mini} alt="miniHamburguer" />
@@ -31,7 +36,7 @@ function Menu(){
                     <strong>Maionese temperada</strong>
                 </article>
             </div>
-            <h1>Jantar</h1>
+            <h1 id="jantar">Jantar</h1>
             <div className={styles.menu_Jantar}>
                 <article className={styles.janta}>
                     <img src={penne} alt="penne" />
@@ -46,7 +51,7 @@ function Menu(){
                     <strong>Risoto de file mignon</strong>
                 </article>
             </div>
-            <h1>Bebidas</h1>
+            <h1 id="bebidas">Bebidas</h1>
             <div className={styles.menu_Bebidas}>
                 <article className={styles.bebidas}>
                     <img src={coca} alt="coca" />

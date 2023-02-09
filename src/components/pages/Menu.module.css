@@ -6,6 +6,37 @@
     padding: 1rem 6rem;
 }
 
+.subMenu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 27rem;
+    color: #3d3c3c;
+    text-decoration: none;
+}
+.subMenu a{
+    text-decoration: none;
+    color: white;
+}
+.subMenu p{
+    background-color: #921a24; 
+    border: 1px solid black;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+.subMenu p:hover{
+        background-color: white; 
+}
+
+.subMenu a:hover{
+    color: #921a24;
+}
+
 .menu_Entrada {
     width: 100%;
     display: flex;
@@ -16,7 +47,7 @@
 }
 .menu h1 { 
     font-size: 1.3em;
-    color: #3d3c3c;
+    color: #333333;
     font-weight: bold;
     /* margin-left:90px; */
     text-align: left;
@@ -33,7 +64,7 @@
 .entrada {
         height: 300px;
         width: 200px;
-        background: #f7f7f7;
+        background: #fbfbfb;
         border-radius: 8px;
         display: flex;
         flex-direction: column;
@@ -41,6 +72,7 @@
         justify-content: space-around;
         margin-top: 3rem;
         margin-right: 2rem;
+        border: 1px solid #d3d2d2;
         
 
 }
@@ -71,7 +103,7 @@
 .janta {
     height: 300px;
     width: 200px;
-    background: #f7f7f7;
+    background: #fbfbfb;
     border-radius: 8px;
     display: flex;
     flex-direction: column;
@@ -79,6 +111,7 @@
     justify-content: space-around;
     margin-top: 3rem;
     margin-right: 2rem;
+    border: 1px solid #d3d2d2;
 }
 
 .janta strong{
@@ -108,7 +141,7 @@
 .bebidas {
     height: 300px;
     width: 200px;
-    background: #f7f7f7;
+    background: #fbfbfb;
     border-radius: 8px;
     display: flex;
     flex-direction: column;
@@ -117,6 +150,7 @@
     margin-top: 3rem;
     margin-right: 1rem;
     overflow: hidden;
+    border: 1px solid #d3d2d2;
 }
 
 .bebidas strong{
@@ -152,6 +186,7 @@
         margin-top: -3rem;
         align-items: center;
         margin-left: 3rem;
+        
     }
 
     .menu_Jantar {
@@ -168,7 +203,7 @@
     .janta {
         height: 300px;
         width: 200px;
-        background: #f7f7f7;
+        background: #ececec;
         border-radius: 8px;
         display: flex;
         flex-direction: column;
@@ -192,7 +227,7 @@
     .bebidas {
         height: 300px;
         width: 200px;
-        background: #f7f7f7;
+        background: #ececec;
         border-radius: 8px;
         display: flex;
         flex-direction: column;
@@ -201,6 +236,19 @@
         margin-top: 3rem;
         overflow: hidden;
         margin-left: 2rem;
+    }
+    
+    .subMenu {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 1.2rem;
+        color: #3d3c3c;
+    }
+    
+    .subMenu p{
+        margin: 0 0.7rem;
     }
 
 }
