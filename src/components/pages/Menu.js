@@ -21,11 +21,11 @@ function Menu(){
             <div className={styles.menu_Entrada}>
                 <article className={styles.entrada}>
                     <img src={mini} alt="miniHamburguer" />
-                    <strong>Mini hambúrguer com salamito</strong>
+                    <strong>Mini hambúrguer com salame</strong>
                 </article>
                 <article className={styles.entrada}>
                     <img src={mini} alt="espetinhos" />
-                    <strong>Espetinhos de salamito, queijo e azeitona</strong>
+                    <strong>Espetinhos de frios</strong>
                 </article>
                 <article className={styles.entrada}>
                     <img src={mini} alt="bolinhas" />
@@ -40,7 +40,7 @@ function Menu(){
             <div className={styles.menu_Jantar}>
                 <article className={styles.janta}>
                     <img src={penne} alt="penne" />
-                    <strong>Massa penne ao molho de quatro queijos</strong>
+                    <strong>Massa penne aos quatro queijos</strong>
                 </article>
                 <article className={styles.janta}>
                     <img src={escondidinho} alt="escondidinho" />
